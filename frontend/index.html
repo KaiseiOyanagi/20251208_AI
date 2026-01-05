@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>ニュース自動タグ生成</title>
+</head>
+<body>
+
+  <h1>ニュース自動タグ生成（Gemini API）</h1>
+
+  <label>カテゴリ：</label>
+  <select id="categorySelect">
+    <option value="game">ゲーム</option>
+    <option value="sports">スポーツ</option>
+    <option value="music">音楽</option>
+  </select>
+
+  <button id="loadBtn">ニュースを取得</button>
+
+  <hr>
+  <div id="newsList"></div>
+
+  <!-- ★ body の一番下で読み込む -->
+  <script src="main.js" defer></script>
+</body>
+</html>
